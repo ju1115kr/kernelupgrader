@@ -12,7 +12,7 @@ kernel.org에서 제시한 Latest Stable Kernel 버전으로 Ubuntu 계열의 OS Kernel을 자
 실행하기 전 필요한 소프트웨어 목록 및 설치법
 
 ```
-Python 3
+python3.x
 
 sudo apt-get install -y python3
 ```
