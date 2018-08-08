@@ -41,7 +41,7 @@ nslookup www.kernel.org
 
 # install preparities packages
 apt-mark hold linux-image-generic linux-headers-generic
-apt-get install -y make bc bison flex libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev wget python3 python3-pip
+apt-get install -y make bc bison flex libelf-dev libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev wget python3 python3-pip
 pip3 install lxml BeautifulSoup4 requests # install python lib
 
 # get latest kernel version from kernel.org
